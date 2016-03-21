@@ -1,0 +1,8 @@
+<div class="col-md-3">
+  <button type="button" name="button" class="btn btn-success" ng-click="home.getUsers()">Listar</button>
+  <ul class="list-group">
+    <br> <li class="list-group-item" ng-repeat="user in home.users">
+      {{user.name}}
+    </li>
+  </ul>
+</div>
